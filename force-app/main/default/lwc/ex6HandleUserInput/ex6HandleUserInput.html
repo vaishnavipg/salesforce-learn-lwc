@@ -1,0 +1,19 @@
+<template>
+    <h1><b>Example 6 - Handle User Input</b></h1>
+    <p>onchange example</p>
+    <lightning-input
+        label="Enter your name"
+        value={changeName}
+        onchange={handleChange}>
+    </lightning-input>
+    <p>Hello, {changeName}</p>
+    <br/>
+    <!--Example for oninput-->
+    <p>oninput example</p>
+    <lightning-input
+        label="Enter your name"
+        value={inputName}
+        oninput={handleInput}>
+    </lightning-input>
+    <p>Hello, {inputName}</p>
+</template>

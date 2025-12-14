@@ -1,0 +1,16 @@
+<template>
+    <h1><b>Example 7 - Handle Multiple User Input</b></h1>
+    <lightning-input
+        label="Enter your first name"
+        value={firstName}
+        onchange={handleChange}>
+    </lightning-input>
+    
+    <lightning-input
+        label="Enter your last name"
+        value={lastName}
+        onchange={handleChange}>
+    </lightning-input>
+    <p>Hello, {firstName}  {lastName} </p>
+
+</template>
