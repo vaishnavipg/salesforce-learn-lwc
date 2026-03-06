@@ -5,4 +5,4 @@ public with sharing class ex11AccountController {
                 FROM Account 
                 LIMIT 10];
     }
-}  
+}
